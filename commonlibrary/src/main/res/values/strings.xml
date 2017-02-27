@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">YdPageState</string>
+    <string name="ydPageState_loading">正在加载中...</string>
+    <string name="ydPageState_refresh">刷新</string>
+    <string name="ydPageState_retry">重试</string>
+    <string name="ydPageState_empty_title">没有找到数据</string>
+    <string name="ydPageState_empty_details">没有找到数据，换个条件试试</string>
+    <string name="ydPageState_error_title">网络连接失败</string>
+    <string name="ydPageState_error_details">无法连接到网络，请检查后重试</string>
+</resources>
