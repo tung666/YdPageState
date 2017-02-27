@@ -15,7 +15,7 @@ import com.yd.commonlibrary.pagestate.listener.OnErrorRetryListener;
 
 /**
  * 管理页面加载，加载结果处理
- * Created by yedong on 15/8/27.
+ * Created by yedong on 17/2/25.
  */
 public class YdPageStateManager implements YdPageState {
 
@@ -28,6 +28,10 @@ public class YdPageStateManager implements YdPageState {
 
     public static YdPageStateManager generate(Activity aty, int viewId) {
         return new YdPageStateManager(aty, viewId);
+    }
+
+    public static YdPageStateManager generate(Fragment fragment, int viewId) {
+        return new YdPageStateManager(fragment.getView(), viewId);
     }
 
     public YdPageStateManager(Activity activity, int viewId) {
